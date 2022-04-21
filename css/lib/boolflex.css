@@ -20,10 +20,22 @@
     flex-direction: row;
 }
 
+.riga-green{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
 /* regola delle colonne */
 [class*="col-"] {
     flex: 0 0 auto;
 }
+
+[class*="-verde"] {
+    flex: 0 0 auto;
+}
+
 
 .col {
     flex-grow: 1;
@@ -35,6 +47,11 @@
 .col-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
+}
+
+.col-2-verde{
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
 }
 
 .col-2{
@@ -57,6 +74,11 @@
     max-width: calc((100% / 12) * 5);
 }
 
+.col-6-verde{
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
 .col-6{
     flex-basis: calc((100% / 12) * 6);
     max-width: calc((100% / 12) * 6);
@@ -65,6 +87,11 @@
 .col-7{
     flex-basis: calc((100% / 12) * 7);
     max-width: calc((100% / 12) * 7);
+}
+
+.col-8-verde{
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
 
 .col-8{
