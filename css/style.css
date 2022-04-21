@@ -1,0 +1,6 @@
+[class*="col-"] {
+    /* regole debug */
+    background-color: aqua;
+    border: solid 2px black;
+    height: 100px;
+}
