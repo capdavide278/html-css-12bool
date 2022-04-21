@@ -1,14 +1,18 @@
 [class*="col-"] {
     /* regole debug */
     background-color: aqua;
-    border: solid 2px black;
+    border: solid 2px white;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.row3{
-    /* background-color: black; */
-    width: 100%;
-    padding-top: 13%;
+.colore-scritta{
     color: white;
-    padding-left: 35%;
+}
+
+#riga-spaziatrice{
+    margin: 25px 0;
+    background-color: white;
 }
